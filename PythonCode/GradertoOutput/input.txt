@@ -1,0 +1,5 @@
+John Smith: 78, 80, 89, 73, 90
+Sara Jones: 66, 81, 83, 75, 78
+Hussain Ahmad: 85, 77, 69, 88, 100
+Nehal Patel: 90, 45, 55, 67, 75
+Shaofeng Zhu: 83, 60, 74, 92, 0
