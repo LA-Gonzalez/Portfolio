@@ -1,2 +1,2 @@
 # Portfolio
-Code from past projects
+Collection of code from previous class projects and assignments. 
