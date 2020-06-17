@@ -1,0 +1,27 @@
+// Unix - Epoch 
+// January 1 1970 00:00:00
+const now = new Date()
+
+const timeStamp = now.getTime()
+const myDate = new Date(timeStamp)
+console.log(myDate.getFullYear())
+// console.log(`Year: ${now.getFullYear()}`)
+// console.log(`Month: ${now.getMonth()}`)
+// console.log(`Day: ${now.getDate()}`)
+// console.log(`Hours: ${now.getHours()}`)
+// console.log(`Minutes: ${now.getMinutes()}`)
+// console.log(`Seconds: ${now.getSeconds()}`)
+
+// create 2 dates in the past (use string for date)
+// get timestamps for both
+// Figure out which is first and print its time (use to string)
+const date1 = new Date("August 5 1987 13:25:00")
+const date2 = new Date("January 10 1999 13:13:13")
+const timeStamp1 = date1.getTime()
+const timeStamp2 = date2.getTime()
+if(timeStamp1 < timeStamp2){
+    console.log(date1.toString())
+}
+else{
+    console.log(date2.toString())
+}
